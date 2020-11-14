@@ -10,7 +10,7 @@ namespace AmazingQuotation
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Quotation());
+            Application.Run(new Form());
 
         }
     }
