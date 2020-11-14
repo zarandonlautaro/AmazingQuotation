@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,15 +16,17 @@ namespace AmazingQuotation
         public Quotation()
         {
             InitializeComponent();
+            HandlerClothingStore();
+            HandlerSeller();
         }
 
-        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void LinkGithub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             try
             {
                 VisitLink();
             }
-            catch(Exception ex)
+            catch (Exception)
             {
                 MessageBox.Show("Unable to open link that was clicked.");
             }
@@ -31,8 +34,46 @@ namespace AmazingQuotation
 
         private void VisitLink()
         {
-            linkLabel2.LinkVisited = true;
+            linkGithub.LinkVisited = true;
             System.Diagnostics.Process.Start("https://github.com/zarandonlautaro");
+        }
+
+        private void HandlerClothingStore()
+        {
+            ArrayList stock = GetStock();
+            Console.WriteLine(stock[0]);
+            ClothingStore clothingStore = new ClothingStore("Gucci", "Mitre 325", stock);
+            label7.Text = clothingStore.name;
+            label9.Text = clothingStore.address;
+        }
+
+        private ArrayList GetStock()
+        {
+            Shirts shirtShortMao = new Shirts(true, true, 200);
+            Shirts shirtShort = new Shirts(true, false, 300);
+            Shirts shirtLongMao = new Shirts(false, true, 150);
+            Shirts shirtLong = new Shirts(false, false, 350);
+
+            Pants pantNormal = new Pants(false, 1500);
+            Pants pantChupin = new Pants(true, 500);
+
+            ArrayList stock = new ArrayList
+            {
+                shirtShortMao,
+                shirtShort,
+                shirtLongMao,
+                shirtLong,
+                pantNormal,
+                pantChupin,
+            };
+
+            return stock;
+        }
+
+        private void HandlerSeller()
+        {
+            Seller seller = new Seller(37, "Lautaro", "Zarandón");
+            label13.Text = seller.name + " " + seller.lastname;
         }
     }
 }
