@@ -6,10 +6,10 @@ using System.Windows.Forms;
 
 namespace AmazingQuotation
 {
-    public partial class Quotation : Form
+    public partial class Form : System.Windows.Forms.Form
     {
         private string m_exePath = string.Empty;
-        public Quotation()
+        public Form()
         {
             InitializeComponent();
             HandlerClothingStore();

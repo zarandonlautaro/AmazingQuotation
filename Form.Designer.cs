@@ -1,6 +1,6 @@
 ﻿namespace AmazingQuotation
 {
-    partial class Quotation
+    partial class Form
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -566,7 +566,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(350, 794);
+            this.label12.Location = new System.Drawing.Point(597, 797);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(102, 17);
             this.label12.TabIndex = 9;
@@ -575,7 +575,7 @@
             // linkGithub
             // 
             this.linkGithub.AutoSize = true;
-            this.linkGithub.Location = new System.Drawing.Point(369, 811);
+            this.linkGithub.Location = new System.Drawing.Point(616, 814);
             this.linkGithub.Name = "linkGithub";
             this.linkGithub.Size = new System.Drawing.Size(56, 17);
             this.linkGithub.TabIndex = 10;
@@ -622,7 +622,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Cascadia Code PL SemiBold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(922, 18);
+            this.label15.Location = new System.Drawing.Point(1037, 10);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(184, 52);
             this.label15.TabIndex = 1;

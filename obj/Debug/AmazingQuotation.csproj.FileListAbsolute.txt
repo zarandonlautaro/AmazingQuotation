@@ -2,9 +2,9 @@ C:\Users\Lautaro Zarandón\source\repos\AmazingQuotation\bin\Debug\AmazingQuotat
 C:\Users\Lautaro Zarandón\source\repos\AmazingQuotation\bin\Debug\AmazingQuotation.exe
 C:\Users\Lautaro Zarandón\source\repos\AmazingQuotation\bin\Debug\AmazingQuotation.pdb
 C:\Users\Lautaro Zarandón\source\repos\AmazingQuotation\obj\Debug\AmazingQuotation.csprojAssemblyReference.cache
-C:\Users\Lautaro Zarandón\source\repos\AmazingQuotation\obj\Debug\AmazingQuotation.Quotation.resources
 C:\Users\Lautaro Zarandón\source\repos\AmazingQuotation\obj\Debug\AmazingQuotation.Properties.Resources.resources
 C:\Users\Lautaro Zarandón\source\repos\AmazingQuotation\obj\Debug\AmazingQuotation.csproj.GenerateResource.cache
 C:\Users\Lautaro Zarandón\source\repos\AmazingQuotation\obj\Debug\AmazingQuotation.csproj.CoreCompileInputs.cache
 C:\Users\Lautaro Zarandón\source\repos\AmazingQuotation\obj\Debug\AmazingQuotation.exe
 C:\Users\Lautaro Zarandón\source\repos\AmazingQuotation\obj\Debug\AmazingQuotation.pdb
+C:\Users\Lautaro Zarandón\source\repos\AmazingQuotation\obj\Debug\AmazingQuotation.Form.resources
