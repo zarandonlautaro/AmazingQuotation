@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Clothing.cs" />
     <Compile Include="ClothingStore.cs" />
+    <Compile Include="LogWriter.cs" />
     <Compile Include="Pants.cs" />
     <Compile Include="Quotation.cs">
       <SubType>Form</SubType>
